@@ -22,16 +22,18 @@ body {
 .header .container {
   display: flex;
   align-items: center;
+  padding: .66rem 0 .66rem 0.5rem;
 }
 
 .header img {
-  padding-left: 0.5rem;
   padding-right: 1 rem;
   height: 1.5rem;
 }
 
-.header span {
-  font-size: 1rem;
-  padding-top: 0.66rem;
-  padding-bottom: 0.66rem;
+.banner {
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
 }
