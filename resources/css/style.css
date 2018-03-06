@@ -1,0 +1,37 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+body {
+  background-color: black;
+  color: seashell;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  padding-left: 0.5rem;
+  padding-right: 1 rem;
+  height: 1.5rem;
+}
+
+.header span {
+  font-size: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
