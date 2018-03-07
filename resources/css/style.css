@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: black;
+  background-color: white;
   color: white;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-
+  background-color: black;
 }
 
 .header .container {
@@ -70,4 +70,43 @@ nav ul {
   justify-content: space-between;
   align-items: center;
   padding: 0.75rem 0rem;
+}
+
+
+.smallbox {
+  width: 30%
+
+}
+
+.boxes,
+.business-info  {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.smallboximg {
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  height: 9rem;
+}
+
+.smallbox img {
+  max-width: 8rem;
+
+}
+
+.smallbox span {
+  display: block;
+  padding: 0.5rem 0;
+  background-color: black;
+  text-align: center;
+}
+
+.blackstrip {
+  background-color: black;
+  width: 35%;
 }
