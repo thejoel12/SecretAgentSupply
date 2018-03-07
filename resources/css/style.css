@@ -14,20 +14,31 @@ body {
 }
 
 .header {
-  display: inline-block;
-  flex-direction: row;
-  align-items: flex-end;
+
 }
 
 .header .container {
   display: flex;
   align-items: center;
   padding: .66rem 0 .66rem 0.5rem;
+
 }
 
 .header img {
   padding-right: 1 rem;
   height: 1.5rem;
+}
+
+h3 {
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
 }
 
 .banner {
@@ -36,4 +47,12 @@ body {
   background-position: center;
   background-size: cover;
   height: 25rem;
+
+}
+
+.banner .container {
+  background-color: black;
+  width:20rem;
+  position: relative;
+  top: 9rem;
 }
