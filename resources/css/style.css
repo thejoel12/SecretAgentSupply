@@ -158,3 +158,48 @@ nav ul {
     display: none;
   }
 }
+
+@media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+
+  .banner .box {
+    top: 7rem;
+    position: relative;
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.77rem;
+  }
+
+  .smallbox.watch {
+    display: none;
+  }
+  .smallbox {
+    width: 90%;
+  }
+
+
+  .business-info,
+  .boxes {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .blackstrip {
+    width: 90%;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+}
