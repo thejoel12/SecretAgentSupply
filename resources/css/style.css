@@ -8,6 +8,10 @@ body {
   color: white;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -133,4 +137,24 @@ nav ul {
 
 .footermaterial {
   padding-top:2.3rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .smallbox {
+    width: 47%
+  }
+
+  .smallbox.glasses {
+    display: none;
+  }
 }
