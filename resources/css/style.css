@@ -107,6 +107,30 @@ nav ul {
 }
 
 .blackstrip {
-  background-color: black;
   width: 35%;
+  margin-top: 3rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.blackbackground {
+  padding: 1rem 0 1rem 2rem;
+}
+
+.whitebackground {
+  background-color: white;
+  padding-bottom: 4rem;
+  color: black;
+}
+
+.footer {
+  background-color: black;
+  height: 5rem;
+  width: 100%;
+
+}
+
+.footermaterial {
+  padding-top:2.3rem;
 }
